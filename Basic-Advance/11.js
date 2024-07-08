@@ -4,4 +4,4 @@ let numA = Number(prompt("Enter first number"));
 let numB = Number(prompt("Enter second number"));
 
 let sum = numA + numB;
- alert(`Sum of first and second number is ${sum}`);
+alert(`Sum of first and second number is ${sum}`);
