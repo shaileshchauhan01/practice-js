@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Event Bubbling</title>
+
+    <style>
+        .box1 {
+            position: absolute;
+            height: 600px;
+            width: 800px;
+            background-color: lightseagreen;
+        }
+
+        .box2 {
+            position: absolute;
+            top: 15%;
+            left: 10%;
+            height: 400px;
+            width: 600px;
+            background-color: seagreen;
+        }
+
+        .box3 {
+            position: absolute;
+            top: 28%;
+            left: 15%;
+            height: 200px;
+            width: 400px;
+            background-color: orange;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box1"> Box 1
+        <div class="box2"> Box 2
+            <div class="box3">Box 3</div>
+        </div>
+    </div>
+</body>
+
+<script src="78BubblingEvent.js"></script>
+
+</html>
